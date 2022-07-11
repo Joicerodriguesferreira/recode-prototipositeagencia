@@ -1,0 +1,289 @@
+/* Gerais*/
+body{
+    font-family: 'roboto', sans-serif;
+    background-color: #191919;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+    background-color: #191919;
+    margin-top: 30px;
+    
+}
+
+p, li{
+    color: #a6a6a6;
+    font-size: 14px;
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: #2c2c2c;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+#navbar-links a{
+    color: #a6a6a6;
+}
+
+#navbar-links:hover a{
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+
+
+/* Card */
+
+.card-body {
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #2c2c2c;
+    color: #fff;
+  }
+
+.card-img-top{
+    height: 200px;
+}
+
+.card .main-btn{
+    width: 150px;
+    height: 40px;
+    padding: 5px 20px;
+}
+
+.card-title{
+    color: #FFF;
+}
+
+/* News Letter */
+
+#news-area {
+    text-align: center;
+    background-color: #191919;
+  }
+  
+  #news-area p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .main-title{
+    color: #fff;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid #fff;
+    width: 15%;
+    position:absolute;
+    top: 60px;
+    left: 42.5%;
+}
+  #email-input {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #65DAF9;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+  }
+  
+  #news-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #65DAF9;
+    background-color: #65DAF9;
+    color: #FFF;
+    text-transform: uppercase;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+  }
+  
+  #news-btn:hover {
+    background-color: #FFF;
+    color: #65DAF9;
+  }
+  
+  /* Call To Action */
+  
+  #call-area {
+    background-color: #65DAF9;
+    text-transform: uppercase;
+  }
+  
+  #call-area .container {
+    padding: 40px 100px;
+  }
+  
+  #call-area .row {
+    display: block;
+    text-align: center;
+  }
+  
+  #call-area p {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    display: inline;
+  }
+  
+  #call-area {
+    background-color: #191919;
+    color: #65DAF9;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+  }
+  
+  /*botao*/
+  .main-btn{
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: 3px solid #65daf9;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #65daf9;
+    border-color: #65daf9;
+}
+
+/* Rodapé*/
+#copy-area{
+    background-color: #2c2c2c ;
+    color: #a6a6a6;
+
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+    background-color: #2c2c2c;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+/*Responsive*/
+@media(max-width:768px){
+    /* geral*/
+    .container{
+        padding: 20px 0;
+}
+
+/* team */
+.card-title {
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  /* apply */
+  #apply-area .apply-box {
+    padding: 50px 25px;
+  }
+
+/* news */
+#news-area p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #email-input {
+    width: 70%;
+  }
+
+  #call-area {
+    margin-top: 30px;
+  }
+
+  #call-area .container {
+    padding: 30px;
+  }
+
+  #call-area p, #call-area #call-btn {
+    font-size: 16px;
+  }
+
+} 
+
+@media (max-width: 425px){
+ /* news */
+ #news-area .main-title {
+    font-size: 24px;
+  }
+
+  #news-area p {
+    font-size: 16px;
+  }
+
+  #email-input {
+    width: 80%;
+  }
+
+  #call-area p, #call-area #call-btn {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+
+  #call-area p, #call-area #call-btn {
+    margin: 0;
+    width: 50%;
+  }
+
+  /* contact */
+  .contact-box {
+    border: none;
+    margin-bottom: 0;
+  }
+
+}

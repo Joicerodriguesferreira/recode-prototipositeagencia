@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajando & Sonhando</title>
+
+    <!--Fonte-->
+    <link href="https: //fonts.googleapis.com/css2? family= Roboto:wght@300;400;700 & display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/stylepromo.css">
+    <!--Script-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/c1cec5f8a7.js" crossorigin="anonymous"></script>
+
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="img/logobotas.png" alt="Logo agencia"> 
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="index.html" class="nav-item nav-link" id="about-menu">Sobre nós</a>
+                        <a href="index.html" class="nav-item nav-link" id="service-menu">Serviços</a>
+                        <a href="destinos.html" class="nav-item nav-link" id="destinos-menu">Destinos</a>
+                        <a href="promo.html" class="nav-item nav-link" id="promo-menu">Promoções</a>
+                        <a href="contato.html" class="nav-item nav-link" id="contact-menu">Contato</a>
+                        <a href="login.html " class="nav-item nav-link" id="login-menu">Entre ou Cadastre-se</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <div class="promo-area">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="main-title">Promoções</h3>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="./img/jericard.jpg" class="card-img-top" alt="Jericoacoara">
+                    <div class="card-body">
+                      <h3 class="card-title">Jericoacoara</h3>
+                      <h4>R$1.299,00</h4>
+                      <button class="card-text main-btn">comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="./img/bcncard.jpg" class="card-img-top" alt="BArcelona">
+                    <div class="card-body">
+                        <h3 class="card-title">Barcelona</h3>
+                        <h4>R$1.999,00</h4>
+                        <button class="card-text main-btn">comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="./img/pariscard.jpg" class="card-img-top" alt="Paris">
+                    <div class="card-body">
+                        <h3 class="card-title">Paris</h3>
+                        <h4>R$2.879,00</h4>
+                        <button class="card-text main-btn">comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="./img/sanblascard.jpg" class="card-img-top" alt="San Blas">
+                    <div class="card-body">
+                        <h3 class="card-title">San Blas</h3>
+                        <h4>R$2.867,00</h4>
+                        <button class="card-text main-btn">comprar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="news-area">
+            <div class="container">
+              <div class="col-md-12">
+                <h3 class="main-title">Fique por dentro das novidades</h3>
+              </div>
+              <p>Assine nossa lista de e-mails e receba nossas promoções em primeira mão nossas promoções.</p>
+              <form action="">
+                <input type="text" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+                <input type="submit" id="news-btn" value="Inscrever">
+              </form>
+            </div>
+          </div>
+          <!-- Call to Action -->
+          <div id="call-area">
+            <div class="container">
+                <div class="row">
+                  <p>Deseja fazer um orçamento sem compromisso?</p>
+                  <button class="main-btn" id="call-btn">Orçar</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div id="copy-area">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>Português © 2022 Desenvolvido por <strong> Joice Ferreira</strong></p>
+                </div>
+            </div>
+        </div>
+    </footer>  
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
+    

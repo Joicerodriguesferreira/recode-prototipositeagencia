@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajando & Sonhando</title>
+
+    <!--Fonte-->
+    <link href="https: //fonts.googleapis.com/css2? family= Roboto:wght@300;400;700 & display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Script-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/c1cec5f8a7.js" crossorigin="anonymous"></script>
+
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="img/logobotas.png" alt="Logo agencia"> 
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="#about-area" class="nav-item nav-link" id="about-menu">Sobre nós</a>
+                        <a href="#services-area" class="nav-item nav-link" id="service-menu">Serviços</a>
+                        <a href="destinos.html" class="nav-item nav-link" id="destinos-menu">Destinos</a>
+                        <a href="promo.html" class="nav-item nav-link" id="promo-menu">Promoções</a>
+                        <a href="contato.html" class="nav-item nav-link" id="contact-menu">Contato</a>
+                        <a href="login.html " class="nav-item nav-link" id="login-menu">Entre ou Cadastre-se</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1"></li>
+                    <li data-target="#mainSlider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"src="img/banner02.png" alt="imagem islandia">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Qual será o seu proximo destino?</h2>
+                            <p>Permita-se conhecer o mundo.</p>
+                            <a href="#" class="main-btn"> Reservar Agora</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100"src="img/banner01.png" alt="imagem praia">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Os melhores pacotes</h2>
+                            <p>Aqui você encontra aereo, hospedagem e transfer.</p>
+                            <a href="#" class="main-btn"> Reservar Agora</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <img class="d-block w-100"src="img/banner03.png" alt="imagem neve">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Aqui dinheiro não é o problema</h2>
+                            <p>Temos os menores preços do mercado.</p>
+                            <a href="#" class="main-btn"> Reservar Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!--Sobre a empresa-->
+            <div id="about-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Sobre nós</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="img/logoblack.png" alt="Agencia Viajando e sonhando">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="about-title">Uma agência que pensa no futuro</h3>
+                            <p>Somos um time de fanáticos, apaixonados por viagens.</p>
+                            <p>Acreditamos que desbravar o mundo ao lado de quem amamos cria memórias para toda a vida, histórias para compartilhar, estreita laços e nos torna pessoas mais felizes.</p>
+                            <p>Nossa maior missão é o “Make Travel Easier” (tornar a sua viagem cada vez mais simples), pois nascemos para conectar pessoas a seus sonhos proporcionando <br>a melhor experiência travel - a um preço acessível.</p>
+                            <p>A agencia de turismo <strong>Viajando & Sonhando</strong> faz tudo por uma boa viagem. Por isso trabalha para transformar essa experiência na melhor conquista de sua vida, através de novas tendências e ampla rede de produtos e serviços turísticos.O comprometimento social, a solidez e a inovação propiciaram notoriedade e visibilidade junto ao público.</p>
+                            <p>Veja nossos diferenciais:</p>
+                            <ul id="about-list">
+                                <li><i class="fas fa-check"></i> Melhores preços do mercado</li>
+                                <li><i class="fas fa-check"></i> Segurança e confiabilidade nas suas compras</li>
+                                <li><i class="fas fa-check"></i> Atendimento personalizado</li>
+                                <li><i class="fas fa-check"></i> Parcelamento em até 12x</li>
+                                <li><i class="fas fa-check"></i> Suporte durante toda a sua viagem</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Serviços-->
+            <div id="services-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title"> Nossos serviços</h3>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-solid fa-earth-americas"></i>
+                            <h4>Viaje o mundo</h4>
+                            <p> Temos pacotes para todas as partes do mundo do Oiapoque ao Xuí</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-solid fa-plane"></i>
+                            <h4>Passagens</h4>
+                            <p> Aqui você consegue sua passagem pelos melhores preços pelas melhores empresas.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-solid fa-hotel"></i>
+                            <h4>Hoteis</h4>
+                            <p> Temos parcerias com os melhores hoteis do Brasil e do mundo.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fa-solid fa-suitcase"></i>
+                            <h4>Pacotes</h4>
+                            <p> Temos pacotes completos que incluem: Hotel, aereo, transfer e muito mais.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fa-solid fa-money-check-dollar"></i>
+                            <h4>Preço Acessível</h4>
+                            <p> Os melhores preços do mercado com parcelamento em até 24x.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <h4>Atendimento 24 Horas</h4>
+                            <p> Nossa equipe esta disponivel para os nossos clientes 24 horas por dia, 7 dias por semana. Fornecemos todos o suporte para que sua viagem seja perfeita.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="copy-area">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>Português © 2022 Desenvolvido por <strong> Joice Ferreira</strong></p>
+                </div>
+            </div>
+        </div>
+    </footer>  
+    <script src="JS/script.js"></script>
+</body>
+</html>
